@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LoveDate",
+    "slug": "lovedate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.lovedate"
+    },
+    "android": {
+      "package": "com.yourname.lovedate"
+    },
+  
+  "expo": {
+    "web": {
+      "bundler": "metro",
+      "display": "standalone"
+    }
+  }
+
+,
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-font"
+    ]
+  }
+}
